@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Showcase App
 
-## Getting Started
+This is a sample Next.js application built with TypeScript to showcase cars and provide information about the cars' images.
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The Car Showcase App is a web application that allows users to browse and explore a collection of cars. It provides an interactive and visually appealing interface to view car images, along with detailed information about each car. Users can filter the cars based on various criteria to find specific models or types of cars.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app is built using Next.js, a popular React framework that enables server-side rendering and efficient routing. TypeScript is used for static type checking, making the codebase more robust and reliable.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- View a collection of cars with their respective images and details.
+- Filter cars based on specific criteria, such as make, model, year, or type.
+- Click on a car to view more information and a larger image.
+- Responsive design to ensure a seamless experience on different devices and screen sizes.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+The app is built using the following technologies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js: A React framework for building server-side rendered applications.
+- TypeScript: A statically typed superset of JavaScript that provides better tooling and enhanced developer experience.
+- React: A JavaScript library for building user interfaces.
+- CSS/SCSS: Styling the components and layout of the app.
